@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <title>Homework 06 - Giphy API</title>
+        <!-- Viewport HTML -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- jQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap CDN -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+          crossorigin="anonymous"></script>
+        <!-- Linking CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+<body>
+
+    <!-- Container to contain page content -->
+    <div class="container">
+        <!-- Creating a default button to always show on the page -->
+        <div id="buttons">
+            <button class="button nyr" data-name="new york rangers">New York Rangers</button>
+        </div>
+        <br>
+    </div>
+    <div class="container">
+        <!-- Gifs will go here -->
+        <div id="gifs" style="float:left"></div>
+        <div style="float:right">
+            <h1>Add an NHL Player or Team</h1>
+            <form id="gif">
+                <label for="gif-search"></label>
+                <input type="text" value="" id="gif-search">
+                <input type="submit" name="Button" class="btn btn-success" id="aButton">
+            </form>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+</body>
+
+</html>

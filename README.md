@@ -1,2 +1,1 @@
-# GiphyAPI
-Homework 6 - Giphy API 
+# gifweek6
